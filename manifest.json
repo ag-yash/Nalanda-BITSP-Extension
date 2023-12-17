@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "My Redirect Extension",
+    "version": "1.0",
+    "action": {
+        "default_title": "Click to Redirect",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
